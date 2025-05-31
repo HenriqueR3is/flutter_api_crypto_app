@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/crypto_currency.dart';
+import '../views/crypto_descriptions.dart';
 
 class CryptoDetailScreen extends StatelessWidget {
   final CryptoCurrency crypto;
@@ -24,9 +25,9 @@ class CryptoDetailScreen extends StatelessWidget {
             const SizedBox(height: 24),
             const Text('Descrição:', style: TextStyle(fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
-            const Text(
-              'Criptomoeda popular usada para troca digital descentralizada.',
-              style: TextStyle(color: Colors.grey),
+            Text(
+              cryptoDescriptions[crypto.symbol] ?? 'Descrição não disponivel.',
+              style: const TextStyle(fontSize: 16, color: Colors.grey),
             ),
           ],
         ),
