@@ -2,6 +2,7 @@
 
 Aplicativo Flutter que consome a API da CoinMarketCap para exibir informações de criptomoedas. Projeto desenvolvido como trabalho prático para a disciplina de Programação para Dispositivos Móveis.
 
+>[!IMPORTANT]
 ## ✅ Funcionalidades implementadas
 
 1. **Listagem de Criptomoedas**: Exibe uma lista com nome, símbolo, preço e variação percentual nas últimas 24h das principais moedas, além do preço em tempo real.
@@ -22,7 +23,7 @@ Aplicativo Flutter que consome a API da CoinMarketCap para exibir informações 
 - CoinMarketCap API
 
 ## 📁 Estrutura de pastas
-<pre> ``` flutter_api_crypto_app-main/  
+<pre> flutter_api_crypto_app-main/  
 |---- lib/  
 |    |---- models/  
 |    |---- repositories/  
@@ -30,9 +31,10 @@ Aplicativo Flutter que consome a API da CoinMarketCap para exibir informações 
 |    |---- services/  
 |    |---- view_models/  
 |    |---- views/  
-|---- main.dart ``` </pre>
+|---- main.dart </pre>
 
 
+>[!TIP]
 ## 🔧 Como rodar o projeto
 
 1. Clone o repositório:
