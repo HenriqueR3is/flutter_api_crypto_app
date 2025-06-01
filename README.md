@@ -22,26 +22,26 @@ Aplicativo Flutter que consome a API da CoinMarketCap para exibir informações 
 - CoinMarketCap API
 
 ## 📁 Estrutura de pastas
-flutter_projects/
-|---- lib/
-| |---- models/
-| |---- repositories/
-| |---- screens/
-| |---- services/
-| |---- view_models/
-| |---- views/
-|---- main.dart
+<pre> ``` flutter_api_crypto_app-main/  
+|---- lib/  
+|    |---- models/  
+|    |---- repositories/  
+|    |---- screens/  
+|    |---- services/  
+|    |---- view_models/  
+|    |---- views/  
+|---- main.dart ``` </pre>
+
 
 ## 🔧 Como rodar o projeto
 
 1. Clone o repositório:
 
-'''bash
 git clone <github.com/HenriqueR3is/flutter_api_crypto_app>
 
 2. Acesse o diretório:
 
-cd flutter_projects
+cd flutter_api_crypto_app
 
 3. Instale as dependências:
 
@@ -57,8 +57,9 @@ flutter run
 
 1. A API da CoinMarketCap exige chave de autenticação.
 
-2. Algumas funcionalidades podem ser expandidas futuramente, como favoritos e gráficos.
+2. O projeto foi desenvolvido e testado através do emulador Pixel-5 no Android Studio.
+
+3. Algumas funcionalidades podem ser expandidas futuramente, como favoritos e gráficos.
 
 ## 👨‍💻 Autor
-## Henrique Hiroshi Koshiba R3is --- @Henrique
-
+## Henrique Hiroshi Koshiba Reis --- @Henrique
