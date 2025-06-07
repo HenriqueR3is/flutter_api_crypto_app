@@ -3,14 +3,14 @@ class CryptoCurrency {
   final String name;
   final String symbol;
   final double priceUsd;
-  final double? changePercent24h; // <--- ADICIONE ESTA LINHA
+  final double? changePercent24h;
 
   CryptoCurrency({
     required this.id,
     required this.name,
     required this.symbol,
     required this.priceUsd,
-    this.changePercent24h, // <--- ADICIONE ESTA LINHA
+    this.changePercent24h,
   });
 
   factory CryptoCurrency.fromJson(Map<String, dynamic> json) {
